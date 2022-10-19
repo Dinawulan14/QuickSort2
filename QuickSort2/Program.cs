@@ -40,7 +40,9 @@ namespace QuickSort2
         //swaps the element at index x with the element at index  y
         void swap(int x, int y)
         {
+            int temp;
 
+            temp = arr
         }
             }
 
