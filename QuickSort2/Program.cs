@@ -42,7 +42,14 @@ namespace QuickSort2
         {
             int temp;
 
-            temp = arr
+            temp = arr[x];
+            arr[x] = arr[y];
+            arr[y] = temp;
+        }
+
+        public void g_sort(int low, int high)
+        {
+            int pivot 
         }
             }
 
