@@ -64,8 +64,15 @@ namespace QuickSort2
 
             while (i <= j)
             {
-
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+                    i++;
+                    cmp_count++;
+                }
             }
+            cmp_count++;
+
+
 
         }
             }
