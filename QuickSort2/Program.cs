@@ -54,7 +54,18 @@ namespace QuickSort2
                 return;
 
             //Partition the list into two parts;
-            //One containing elements less 
+            //One containing elements less that or equal to pivot
+            //Outher containning elements greather than pivot
+
+            i = low + 1;
+            j = high;
+
+            pivot = arr[low];
+
+            while (i <= j)
+            {
+
+            }
 
         }
             }
