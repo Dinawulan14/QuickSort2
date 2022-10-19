@@ -49,7 +49,13 @@ namespace QuickSort2
 
         public void g_sort(int low, int high)
         {
-            int pivot 
+            int pivot, i, j;
+            if (low > high)
+                return;
+
+            //Partition the list into two parts;
+            //One containing elements less 
+
         }
             }
 
