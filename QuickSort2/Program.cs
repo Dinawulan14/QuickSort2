@@ -26,6 +26,14 @@ namespace QuickSort2
                     Console.WriteLine("\nArray can have maximum 20 elements \n");
             }
             Console.WriteLine("\n================================");
+            Console.WriteLine("Enter Array Elements");
+            Console.WriteLine("\n================================");
+
+            //get array elements
+            for(int i = 0; i < arr.Length; i++)
+            {
+
+            }
 
         }
     }
