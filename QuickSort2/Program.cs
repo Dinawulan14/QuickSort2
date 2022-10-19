@@ -10,6 +10,6 @@ namespace QuickSort2
         private int mov_count = 0; //number of data movements
 
         // Number of elements in array
-        private int n;
+
     }
 }
